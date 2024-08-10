@@ -43,7 +43,7 @@ const Nav = () => {
         <span>Contact</span>
       </NavLink>
       <NavLink
-        to="/settings"
+        to="/dashboard"
         className={({ isActive }) =>
           `flex items-center space-x-4 py-2 px-3 font-medium ml-1 rounded-lg ${
             isActive ? "bg-[#D4E9FF] text-black" : "text-white hover:text-black hover:bg-[#D4E9FF]"
